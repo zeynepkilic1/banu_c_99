@@ -1,4 +1,8 @@
 typedef Kullanımı <br>
+
+typedef eski-isim yeni-isim;
+
+
 typedef deyimi C dilinde değişken tanımlama yaparken kullanılan int, float, char gibi değişken isimlerini değiştirmeye yarar.
 Bu sayede kodlar programcının anadiline daha fazla yaklaşmış olur.
 struct deyimi ile beraber kullanıldığında oluşturduğunuz yapıyı bir değişken türü olarak tanımlayıp o yapının çoğaltılmasını sağlar. Bu yapıdan değişken tanımlamak için tekrar struct deyiminin kullanılmasına gerek kalmaz
