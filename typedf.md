@@ -1,6 +1,7 @@
 typedef Kullanımı <br>
 
 typedef eski-isim yeni-isim;
+typedef int tms;
 
 
 typedef deyimi C dilinde değişken tanımlama yaparken kullanılan int, float, char gibi değişken isimlerini değiştirmeye yarar.
