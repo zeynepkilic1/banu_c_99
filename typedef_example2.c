@@ -1,0 +1,26 @@
+//typedef usage
+
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
+#include "ctype.h" // for isdigit()
+
+typedef struct login {
+    char username[20]; // 20 is the maximum length of the username and password that can be entered
+    char password[20];   // 20 is the maximum length of the username and password that can be entered
+} login;
+
+void login(login log) {
+    char username1[20]; // 20 is the maximum length of the username and password that can be entered
+    char password1[20];     // 20 is the maximum length of the username and password that can be entered
+    printf("Enter your username: ");
+    scanf("%s", username1);
+    printf("Enter your password: ");
+    scanf("%s", password1);
+    if (strcmp(log.username, username1) == 0 && strcmp(log.password, password1) == 0) {
+        printf("You are logged in");
+    } else {
+        printf("Wrong username or password");
+    }
+
+}
